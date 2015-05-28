@@ -1,0 +1,16 @@
+{
+  "name": "chpm",
+  "version": "0.0.0",
+  "description": "Mini project voor productie van pdf en email uit data volgens template",
+  "repository": "git@github.com:westtoer/chpm.git",
+  "main": "mailpdf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jade": "^1.10.0",
+    "yargs": "^3.9.1"
+  }
+}
