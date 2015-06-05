@@ -9,7 +9,7 @@ var data2pdf = require('./lib/data2pdf'),
         .example('$0  -t template/kc/enquete-prestaties.jade -i data/kc/enquete/2015/test.csv', 'Will process the data in the files.')
         .describe('template', 'Location of JADE template to use.')
         .alias('t', 'template')
-        .default('t', path.join(__dirname, 'template.jade'))
+        .default('t', path.join(__dirname, 'data', 'template.jade'))
         .describe('input', 'Location of data.csv to work with')
         .alias('i', 'input')
         .default('input', path.join(__dirname, 'data', 'test', 'data.csv'))
