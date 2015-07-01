@@ -1,0 +1,8 @@
+# use iconv to convert encoding
+
+$ iconv -f cp1252 -t utf-8 data/TA_DVN_file\ voor\ Marc\ rond\ mailen\ kostennotas.csv >data/TA_DVN_file\ voor\ Marc\ rond\ mailen\ kostennotas-utf8.csv
+
+
+# call the mailer
+
+$ node mailpdf.js -n -i data/TA_DVN_file\ voor\ Marc\ rond\ mailen\ kostennotas-utf8.csv -y201505
