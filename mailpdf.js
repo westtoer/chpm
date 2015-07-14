@@ -44,6 +44,14 @@ var data2pdf = require('./lib/data2pdf'),
         .alias('o', 'output')
         .default('o', path.join('tmp', 'mkpdf', 'output', 'test'))
 
+        .describe('period', 'time (in millis) to wait between records')
+        .alias('p', 'period')
+        .default('p', 5000)
+
+        .describe('limit', 'limit number of concurrent connections')
+        .alias('l', 'limit')
+        .default('l', 15)
+
         .demand(["ymonth"])
         .argv;
 
