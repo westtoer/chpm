@@ -5,4 +5,4 @@ $ iconv -f cp1252 -t utf-8 data/TA_DVN_file\ voor\ Marc\ rond\ mailen\ kostennot
 
 # call the mailer
 
-$ node mailpdf.js -n -i data/TA_DVN_file\ voor\ Marc\ rond\ mailen\ kostennotas-utf8.csv -y201505
+$ node mailpdf.js -n -i data/enq-input-201506-utf8.csv -y201506 -g testaddress@gmail.com 
